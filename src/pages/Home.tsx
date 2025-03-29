@@ -91,13 +91,16 @@ function Home() {
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <GradientButton
-                    className="w-full sm:w-auto"
-                    onClick={handleSubmitClick}
-                  >
-                    Submit Your Project →
-                  </GradientButton>
-                  
+  <a 
+    href="https://docs.google.com/forms/d/e/1FAIpQLSe8gFS1Kl9j-klJFVV9RugqY9rMJoQDPiRLD-14jvemSaUWxA/viewform?usp=dialog" 
+    className="w-full sm:w-auto"
+  >
+    <GradientButton className="w-full">
+      Submit Your Project →
+    </GradientButton>
+  </a>
+</div>
+
                   <Link to="/registered" className="w-full sm:w-auto">
                     <GradientButton className="w-full">
                       View All Teams
