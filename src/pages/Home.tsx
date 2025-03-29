@@ -19,8 +19,8 @@ function Home() {
   };
 
   const handleSubmitClick = () => {
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLSe8gFS1Kl9j-klJFVV9RugqY9rMJoQDPiRLD-14jvemSaUWxA/viewform?usp=dialog', '_blank');
-  };
+  window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSe8gFS1Kl9j-klJFVV9RugqY9rMJoQDPiRLD-14jvemSaUWxA/viewform?usp=dialog';
+};
 
   return (
     <div className="min-h-screen bg-[#0A0118] text-white overflow-x-hidden">
